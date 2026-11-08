@@ -1133,7 +1133,7 @@
        place of this page's old standalone 161px bar with a 52px logo and
        an image-based toggle icon. Vertically centered at 82/2 = 41px:
        logo top = 41 - 50/2 = 16px; toggle top = 41 - 44/2 = 19px. */
-    .m-nav { position: absolute; left: 0; top: 0; width: 393px; height: 82px; background: var(--off-white); z-index: 5; }
+    .m-nav { position: fixed; left: 50%; top: 0; transform: translateX(-50%); width: 393px; height: 82px; background: var(--off-white); z-index: 5; }
     .m-nav__logo { position: absolute; left: 20px; top: 16px; width: 50px; height: 50px; display: block; }
     .m-nav__logo img { width: 100%; height: 100%; object-fit: cover; }
     .m-nav__toggle { position: absolute; right: 20px; top: 19px; width: 44px; height: 44px; display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 5px; padding: 0; border: 0; background: none; cursor: pointer; }
